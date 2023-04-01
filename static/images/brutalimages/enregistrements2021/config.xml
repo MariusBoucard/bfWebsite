@@ -1,0 +1,75 @@
+<!-- Could maybe use poo things to help ?? -->
+
+<dossier name="Enregistrements en 2021" date="15/10/2020" description="
+Quelques rares footages de nos performances
+" cover="becane.jpg" foldernum="0">
+
+
+<image>
+<name>Becane</name>
+<!-- For the path we just have to set the relative image name -->
+<path>becane.jpg</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>1</index>
+<!-- Date -->
+<date>15/40/65</date>
+<description>En Y, sur les dos d'âne</description>
+</image>
+
+
+<image>
+<name>Small fontain on the mic</name>
+<!-- For the path we just have to set the relative image name -->
+<path>laudine.jpeg</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>2</index>
+<!-- Date -->
+<date>15/40/65</date>
+<description>Pere castor, raconte nous une histoire</description>
+</image>
+
+<image>
+<name>Few racks Sheep</name>
+<!-- For the path we just have to set the relative image name -->
+<path>fewracks.jpeg</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>3</index>
+<!-- Date -->
+<date>15/40/65</date>
+<description>Il était une fois...</description>
+</image>
+
+<image>
+<name>Scratman</name>
+<!-- For the path we just have to set the relative image name -->
+<path>scrat.jpeg</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>4</index>
+<!-- Date -->
+<date>15/40/65</date>
+<description>Topin ?</description>
+</image>
+
+<image>
+<name>Ballzzy</name>
+<!-- For the path we just have to set the relative image name -->
+<path>ballzz.jpeg</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>5</index>
+<!-- Date -->
+<date>15/40/65</date>
+<description>Topin !</description>
+</image>
+
+<image>
+<name>Brutal week</name>
+<!-- For the path we just have to set the relative image name -->
+<path>header.jpg</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>6</index>
+<!-- Date -->
+<date>15/40/65</date>
+<description>Tranquillou posé au soleil avec les copains</description>
+</image>
+
+</dossier>

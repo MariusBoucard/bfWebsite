@@ -1,0 +1,77 @@
+Sure! Here's an example of a simple Flask application that serves a Phaser game:
+
+from flask import Flask, render_template
+app = Flask(__name__)
+
+@app.route("/")
+def index():
+    return render_template("index.html")
+
+if __name__ == "__main__":
+    app.run(debug=True)
+
+This is a simple Flask app that defines a single route ("/") that renders an HTML template called "index.html".
+
+Here's an example of what the "index.html" template might look like:
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.24.1/dist/phaser.min.js"></script>
+    <script src="game.js"></script>
+  </head>
+  <body>
+    <div id="game-container"></div>
+  </body>
+</html>
+
+This template includes the Phaser library and a JavaScript file called "game.js" that will contain the code for the game. The template also includes a div element with an id of "game-container" that will serve as the container for the game.
+
+Here is a simple example of what the game.js file could look like, it's a simple game where you can move a sprite using arrow keys:
+
+var config = {
+    type: Phaser.AUTO,
+    width: 800,
+    height: 600,
+    parent: "game-container",
+    scene: {
+        preload: preload,
+        create: create,
+        update: update
+    }
+};
+
+var game = new Phaser.Game(config);
+var sprite;
+
+function preload ()
+{
+    this.load.image('logo', 'logo.png');
+}
+
+function create ()
+{
+    sprite = this.add.sprite(400, 300, 'logo');
+    this.input.keyboard.on('keydown_LEFT', function (event) {
+        sprite.x -= 10;
+    });
+    this.input.keyboard.on('keydown_RIGHT', function (event) {
+        sprite.x += 10;
+    });
+    this.input.keyboard.on('keydown_UP', function (event) {
+        sprite.y -= 10;
+    });
+    this.input.keyboard.on('keydown_DOWN', function (event) {
+        sprite.y += 10;
+    });
+}
+
+function update ()
+{
+}
+
+In this example, the game uses the preload, create, and update functions provided by Phaser. The preload function loads the image 'logo.png' and the create function adds the sprite to the screen and sets up the movement with arrow keys.
+
+You'll need to make sure that the logo.png file and the game.js file are in the same folder as your Flask application, and that the paths to those files in the HTML template are correct.
+
+Please note that this is just a simple example to illustrate how you might integrate a Phaser game into a Flask application, and it doesn't cover all of the possible functionality you might want to include in a real game.

@@ -1,0 +1,75 @@
+<!-- Could maybe use poo things to help ?? -->
+
+<dossier name="Repète generale avant le GAZOOO" date="15/10/2020" description="
+En direct du local
+" cover="nrv.jpg" foldernum="0">
+
+
+<image>
+<name></name>
+<!-- For the path we just have to set the relative image name -->
+<path>nrv.jpg</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>1</index>
+<!-- Date -->
+<date>15/40/65</date>
+<description>Pooing</description>
+</image>
+
+
+<image>
+<name>Il était une fois</name>
+<!-- For the path we just have to set the relative image name -->
+<path>groupetopin.jpg</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>2</index>
+<!-- Date -->
+<date>15/40/65</date>
+<description>Pere castor, raconte nous une histoire</description>
+</image>
+
+<image>
+<name>Scratman est trop dark</name>
+<!-- For the path we just have to set the relative image name -->
+<path>scratsombre.jpg</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>3</index>
+<!-- Date -->
+<date>15/40/65</date>
+<description>#emo</description>
+</image>
+
+<image>
+<name>Il est arrivé si vite</name>
+<!-- For the path we just have to set the relative image name -->
+<path>bandmetal.jpg</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>4</index>
+<!-- Date -->
+<date>15/40/65</date>
+<description>Pas la pour chier dans la colle</description>
+</image>
+
+<image>
+<name>Ballzzy</name>
+<!-- For the path we just have to set the relative image name -->
+<path>ballzzymetal.jpg</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>5</index>
+<!-- Date -->
+<date>15/40/65</date>
+<description>Des cheveux aux vent et des riffs endiablés</description>
+</image>
+
+<image>
+<name>De la poésie</name>
+<!-- For the path we just have to set the relative image name -->
+<path>banddark.jpg</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>6</index>
+<!-- Date -->
+<date>15/40/65</date>
+<description>Car oui, c'est aussi ça être bukolik</description>
+</image>
+
+</dossier>

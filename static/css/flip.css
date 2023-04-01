@@ -1,0 +1,626 @@
+/* THis media thing is to specify a special behavior for some screens
+be carefull with the brackets, they define the beginning and the end of a code block
+
+each .enterthenameofyourclass defines a specific class. So when you put this class inside you're html balise,
+it will apply the style defined here.
+There's a ton of different possibilities, that's wwy I mainly steal it lol*/
+
+.lyricline{
+    margin: 0;
+    color:black;
+}
+.column {
+    width:50%;
+    float:left
+}
+.column3 {
+    font-size: small;
+    width:33%;
+    float:left
+}
+   @media (min-width:1200px) {
+
+        .lab-alignment
+    {
+        display: flex;
+    
+        height: calc(100vh - 6em); 
+    
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .cardportrait,
+    .cardpaysage
+    {
+       
+        perspective: 1000px;
+    }
+    .cardportrait:hover .card__innerportrait,
+    .cardportrait:active .card__innerportrait,
+    .cardportrait:focus .card__innerportrait,
+    .cardpaysage:hover .card__innerpaysage,
+    .cardpaysage:active .card__innerpaysage,
+    .cardpaysage:focus .card__innerpaysage
+    {
+        transform: rotateY(180deg);
+    }
+    
+    
+    .card,
+    .card__inner
+    {
+        position: relative;
+    
+        width: 300px;
+        height: 300px;
+    }
+    .cardportrait
+    {   
+        padding-top: 40px;
+        position: relative;
+        /* left: 50%; */
+        /* transform: translate(-50%,0%); */
+        display: inline-block;
+        /* insert ratio right here */
+        width:30%;
+    }
+    .card__innerportrait
+    {
+        position: relative;
+        
+        width:100%;
+        height: 100%;
+    }
+    .cardpaysage
+    {
+        padding-top: 40px;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%,0%);
+        /* position: relative; */
+        /* display: inline-block; */
+        /* insert ratio right here */
+        width:60%;
+        height:calc(60vw*0.68)
+
+    }
+    .card__innerpaysage
+    {
+        position: relative;
+        
+        width:100%;
+        height: 100%;
+    }
+    .card__innerportrait,
+    .card__innerpaysage
+    {
+        transition: transform .25s ease-in-out;
+        transform-origin: 50% 50%;
+    
+        transform-style: preserve-3d;
+    }
+    
+    .card__backportrait,
+    .card__backpaysage
+    {
+        transform: rotateY(180deg);
+    }
+    
+    .card__frontportrait,
+    .card__frontpaysage,
+    .card__backportrait,
+    .card__backpaysage
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+    
+        display: block;
+        width: 100%;
+        height: 100%;
+    
+        color: #888;
+        background-color: #fff;
+    
+        justify-content: center;
+        /* align-items: center; */
+        backface-visibility: hidden;
+    }
+    .imgpaysage{
+        height:100%;
+        width:100%
+    }
+    .imgportrait{
+        height:100%;
+        width:100%
+    }
+    .imagetitle{
+        color:red;
+        position: relative;
+        display: block;
+        padding-top: 5%;
+        color: black;
+        
+    }
+    .imagedesc{
+        color:red;
+        position: relative;
+    display: block;
+        max-height: 80%;
+        color: #888;
+    }
+   
+
+    .imageautor{
+        color:#BBB;
+        bottom: 10px;
+        right:10px;
+        position: absolute;
+    
+    }
+    .imageloca{
+        color:#BBB;
+        bottom: 10px;
+        
+        position: absolute;
+        
+    }
+    .imagedate{
+        color:#BBB;
+        position: absolute;
+        bottom: 10px;
+        left:10px;
+    }
+    .paysage{
+        max-width: 100%;
+    }
+   } 
+
+
+
+
+   /* PART 2  */
+   @media (min-width:800px) and (max-width:1200px) {
+    .lyricline{
+    margin: 0;
+    color:black;
+}
+.column {
+    width:50%;
+    float:left
+}
+.column3 {
+    font-size: small;
+    width:33%;
+    float:left
+}
+    .lab-alignment
+{
+    display: flex;
+
+    height: calc(100vh - 6em); 
+
+    justify-content: center;
+    align-items: center;
+}
+
+.cardportrait,
+.cardpaysage
+{
+    perspective: 1000px;
+}
+.cardportrait:hover .card__innerportrait,
+.cardportrait:active .card__innerportrait,
+.cardportrait:focus .card__innerportrait,
+.cardpaysage:hover .card__innerpaysage,
+.cardpaysage:active .card__innerpaysage,
+.cardpaysage:focus .card__innerpaysage
+{
+    transform: rotateY(180deg);
+}
+
+
+.card,
+.card__inner
+{
+    position: relative;
+
+    width: 300px;
+    height: 300px;
+}
+.cardportrait
+{   
+    padding-top: 40px;
+    position: relative;
+    /* left: 50%; */
+    /* transform: translate(-50%,0%); */
+    display: inline-block;
+    /* insert ratio right here */
+    width:50%;
+   
+}
+.card__innerportrait
+{
+    position: relative;
+    
+    width:100%;
+    height: 100%;
+}
+.cardpaysage
+{
+    padding-top: 40px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0%);
+    /* position: relative; */
+    /* display: inline-block; */
+    /* insert ratio right here */
+    width:80%;
+    height:calc(80vw*0.91)
+
+  
+
+}
+.card__innerpaysage
+{
+    position: relative;
+    
+    width:100%;
+    height: 100%;
+}
+.card__innerportrait,
+.card__innerpaysage
+{
+    transition: transform .25s ease-in-out;
+    transform-origin: 50% 50%;
+
+    transform-style: preserve-3d;
+}
+
+.card__backportrait,
+.card__backpaysage
+{
+    transform: rotateY(180deg);
+}
+
+.card__frontportrait,
+.card__frontpaysage,
+.card__backportrait,
+.card__backpaysage
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    color: #888;
+    background-color: #fff;
+
+    justify-content: center;
+    /* align-items: center; */
+    backface-visibility: hidden;
+}
+.imgpaysage{
+    height:100%;
+    width:100%
+}
+.imgportrait{
+    height:100%;
+    width:100%
+}
+.imagedesc{
+    color:red;
+    position: absolute;
+    display: block;
+    top : 15%;
+    color: #888;
+}
+.imagedate{
+    color:#BBB;
+    position: absolute;
+    bottom: 5px;
+    font-size: medium;
+    left:10px;
+}
+.imageautor{
+    color:#BBB;
+    bottom: 10px;
+    right:10px;
+    font-size: medium;
+    position: absolute;
+    
+}
+.imageloca{
+    color:#BBB;
+    bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: medium;
+    position: relative;
+    
+}
+.imagetitle{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-top: 5%;
+    color: black;
+    
+}
+.paysage{
+    max-width: 100%;
+}
+} 
+
+
+
+
+/* MIN SEIZEEE   
+
+
+*/
+@media (max-width:800px) {
+    .lyricline{
+        margin: 0;
+        color:black;
+    }
+    .column {
+        font-size: xx-small;
+        width:50%;
+        float:left
+    }
+    .column3 {
+        font-size: xx-small;
+        width:33%;
+        float:left
+    }
+    .lab-alignment
+{
+    display: flex;
+
+    height: calc(100vh - 6em); 
+
+    justify-content: center;
+    align-items: center;
+}
+
+.cardportrait,
+.cardpaysage
+{
+    
+    perspective: 1000px;
+}
+.cardportrait:hover .card__innerportrait,
+.cardportrait:active .card__innerportrait,
+.cardportrait:focus .card__innerportrait,
+.cardpaysage:hover .card__innerpaysage,
+.cardpaysage:active .card__innerpaysage,
+.cardpaysage:focus .card__innerpaysage
+{
+    transform: rotateY(180deg);
+}
+
+
+.card,
+.card__inner
+{
+    position: relative;
+
+    width: 300px;
+    height: 300px;
+}
+.cardportrait
+{   
+    padding-top: 40px;
+    position: relative;
+    /* left: 50%; */
+    /* transform: translate(-50%,0%); */
+    display: inline-block;
+    /* insert ratio right here */
+    width:80%;
+    
+}
+.card__innerportrait
+{
+    position: relative;
+    
+    width:100%;
+    height: 100%;
+}
+.cardpaysage
+{
+    padding-top: 40px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0%);
+    /* position: relative; */
+    /* display: inline-block; */
+    /* insert ratio right here */
+    width:100%;
+    height:calc(100vw*0.91)
+
+    
+
+}
+.card__innerpaysage
+{
+    position: relative;
+    
+    width:100%;
+    height: 100%;
+}
+.card__innerportrait,
+.card__innerpaysage
+{
+    transition: transform .25s ease-in-out;
+    transform-origin: 50% 50%;
+
+    transform-style: preserve-3d;
+}
+
+.card__backportrait,
+.card__backpaysage
+{
+    transform: rotateY(180deg);
+}
+
+.card__frontportrait,
+.card__frontpaysage,
+.card__backportrait,
+.card__backpaysage
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    color: #888;
+    background-color: #fff;
+
+    justify-content: center;
+    /* align-items: center; */
+    backface-visibility: hidden;
+}
+.imgpaysage{
+    height:100%;
+    width:100%;
+}
+.imgportrait{
+    height:100%;
+    width:100%;
+}
+.imagedesc{
+    color:red;
+    position: absolute;
+    display: block;
+    top : 15%;
+    color: #888;
+}
+.imagedate{
+    color:#BBB;
+    position: absolute;
+    bottom: 5px;
+    font-size: small;
+    left:10px;
+}
+.imageautor{
+    color:#BBB;
+    bottom: 10px;
+    right:10px;
+    font-size: small;
+    position: absolute;
+    
+}
+.imageloca{
+    color:#BBB;
+    bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: medium;
+    position: relative;
+    
+}
+.imagetitle{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    position: relative;
+    padding-top: 1%;
+    color: black;
+    
+}
+
+
+/* MIN ENCOREEEE */
+@media (max-width:400px) {
+    
+    .imagedesc{
+        color:red;
+        position: absolute;
+        display: block;
+        top : 15%;
+        color: #888;
+    }
+    .imagedate{
+        color:#BBB;
+        position: absolute;
+        bottom: 5px;
+        font-size: small;
+        left:10px;
+    }
+    .imageautor{
+        color:#BBB;
+        bottom: 10px;
+        right:10px;
+        font-size: small;
+        position: absolute;
+        
+    }
+    .imageloca{
+        color:#BBB;
+        bottom: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: small;
+        position: relative;
+        
+    }
+    .imagetitle{
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        padding-top: 5%;
+        color: black;
+        
+    }
+}
+
+.paysage{
+    max-width: 100%;
+}
+} 
+
+
+@media (min-width:1200px){
+
+    .categotitle{
+        padding-top:50px;
+        font-size : 50px;
+        color:black;
+        
+    }
+    .categodesc{
+        font-size : x-large;
+        font-weight: 900px;
+    }
+}
+@media (min-width:500px)and (max-width:1200px){
+
+    .categotitle{
+        font-size : 40px;
+        color:black;
+        
+    }
+    .categodesc{
+        font-size : large;
+        font-weight: 900px;
+    }
+}
+
+
+.image-container::before {
+    /* content: "Text on top of image"; */
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+}
