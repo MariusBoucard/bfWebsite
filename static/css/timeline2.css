@@ -57,6 +57,7 @@
     position: relative;
     border-radius: 0px 0px 80px 0px;
     box-shadow: 0px 16px 27px rgb(0 11 30 / 10%);
+    width:100%
   }
   
   .steps .steps-container:nth-child(even) {
@@ -73,8 +74,8 @@
     font-size: 16px;
     color: #ffffff;
     margin-bottom: 10px;
-    width: 62px;
-    height: 62px;
+    width: 70px;
+    height: 70px;
     background-color: var(--primary);
     border-radius: 50%;
     flex-shrink: 0;

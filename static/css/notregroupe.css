@@ -26,8 +26,12 @@ h2 {
     border-radius: 6px;
     align-self: center;
     width: 60vw;
+    margin-right: 0px;
 }
 .timeline__event:nth-child(2n + 1) {
+    flex-direction: row-reverse;
+}
+.bis{
     flex-direction: row-reverse;
 }
 .timeline__event:nth-child(2n + 1) .timeline__event__date {
@@ -210,7 +214,8 @@ h2 {
    }
     .timeline__event:nth-child(2n + 1) .timeline__event__icon {
         border-radius: 6px 6px 0 0;
-        margin: 0;
+        margin-right: 0px;
+        
    }
 }
 @keyframes fillLeft {

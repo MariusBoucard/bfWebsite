@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html style="min-height: 100vh;">
+<!-- This kind of code is made out of balises, that you have to open and then close
+you can see it as boxes that has to be well imbricated
+here i ll open the head of the document, put some scripts in it and references and then I close it -->
+<!-- BTW, everything that is written between to balises will be displayed as raw text to user -->
+<head>
+<!-- THis is so important, Here I like js and css files to let our html file knows the behavior we want for him -->
+  <script src="../static/js/menu.js"></script>
+  <link rel = "icon" href = 
+"../static/images/logo/logo.png" 
+        type = "image/x-icon">
+  <link rel="stylesheet" type="text/css" href="../static/css/nav.css" />
+  <link href="../static/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="../static/css/menu.css" type="text/css" rel="stylesheet" />
+  <!-- This block thing is special with flask, I'll use that for inheritance, as I'll use my base everywhere after, I want to be able to add
+  other css files inside and that kind of stuff, you'll see in contact.html -->
+  {%block head%}{%endblock%}
+  <style>
+    /* Create a grid container for the page */
+    .grid-container {
+        display: grid;
+        grid-template-rows: 1fr auto;
+        min-height: 100vh;
+    }
+    /* Style for the footer */
+    footer {
+        grid-row-end: span 1;
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px;
+    }
+    </style>
+</head>
+
+
+
+<body style="min-height:100vh;">
+
+
+
+
+
+<!-- You should take a look at documentation for each kind of balises, but chat GPT could be such a great friend to tell you just what you need
+and save you countless hours -->
+
+<!-- The class atribute you'll sometime see in balises are used to relate to css class, for exemple d-flex is defined in the bootstrap.min.css file
+and our html file will find it as we linked it before, in the head. Sometime we don't want to create a class for a special thing, so we can just
+add style="ALL THE DIFFERENTS STYLE ATTRIBUTE WE WANT TO PUT HERE" inside the opening balise and it will work the same.
+but that approch can lead to write multiple time the same thing, and so, if you messed up, a lot will be to do again-->
+<!-- HEADER STARTS HERE -->
+<div>
+  <a href="/">
+    <header class="d-flex flex-wrap justify-content-center mb-4 imgdiv">
+      <img src="../static/images/header2.png" width="100%" />
+    </header>
+  </a>
+
+</div>
+
+
+
+
+
+<br />
+
+<div class="container-fluid">
+  
+        <header>
+          <input type='checkbox' id='toggle' style='display:none;' />
+          <div style="width: 10px;">
+          <label class='toggle-btn toggle-btn__cross' for='toggle'>
+            <img src="../static/images/menu.png" />
+          </label>
+        </div>
+          <nav>
+            <ul>
+              <!-- Brutal story will be displayed directly for the user -->
+              <li><a href="/brutalfekallegend">Brutal Story</a></li>
+              <li><a href="/brutalfekal">Brutal band</a></li>
+              <li><a href="/brutalnews">Brutal News</a></li>
+              <li><a href="/merch">Fekal Merch</a></li>
+              <li><a href="/brutalbanger">Brutal Bangers</a></li>
+              <!-- <li><a href="/artworks">Fekal Artworks/Lyrics</a></li> -->
+              <li><a href="/brutalimages">Fekal influenceurs (des photos de nous)</a></li>
+              <li><a href="/nouschieralaraie">Nous envoyer une photo de chiasse</a></li>
+              <li><a href="/brutalpub">Recevoir toutes nos news</a></li>
+              <li>
+                <ul class="nav justify-content-center list-unstyled d-flex logoul" style="width: 100%;">
+                  <li class="ms-3" style="  display: inline-block;"><a class="text-muted" href="https://brutalfekal.bandcamp.com/"><img class="logomenu"
+                    src="../static/images/social/bandcampb.png" /></a></li>
+                  <li class="ms-3" style="  display: inline-block;"><a class="text-muted" href="#"><img class="logomenu"
+                        src="../static/images/social/facebookb.png" /></a></li>
+                  <li class="ms-3" style="  display: inline-block;"><a class="text-muted" href="https://www.instagram.com/brutalfekalofficiel/"><img class="logomenu"
+                        src="../static/images/social/instagramb.png" /></a></li>
+                  <li class="ms-3" style="  display: inline-block;"><a class="text-muted" href="https://soundcloud.com/user-68679889"><img class="logomenu"
+                        src="../static/images/social/soundcloud-logob.png" /></a></li>
+                  <li class="ms-3" style="  display: inline-block;"><a class="text-muted" href="https://www.youtube.com/channel/UCJuuKRquK9ZR1ts88WjkpZA"><img class="logomenu"
+                        src="../static/images/social/youtubeb.png" /></a></li>
+                  <li class="ms-3" style="  display: inline-block;"><a class="text-muted"
+                      href="#"><img class="logomenu" src="../static/images/social/kickstarterb.png" /></a></li>
+
+
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </header>
+
+
+      {%block middlecolumn%}{%endblock%}
+
+
+  </div>
+</div>
+
+
+
+
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 "
+  style="background-color: black; margin-bottom: 0px;">
+  <div class="col-md-4 d-flex align-items-center">
+    <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+      <svg class="bi" width="30" height="24">
+        <use xlink:href="#bootstrap" />
+      </svg>
+    </a>
+    <span class="mb-3 mb-md-0 " style="color : red;">&copy; 2023 Brutal Fekal</span>
+  </div>
+  <p style="color:red; font-size: medium;">Vous fekaliser, c'est notre métier, et on le fera, pour l'éternité</p>
+  <ul class="nav col-md-4 justify-content-end list-unstyled d-flex ">
+    <li class="ms-3" style="  display: inline-block;"><a class="text-muted" href="https://brutalfekal.bandcamp.com/"><img height=50px
+      src="../static/images/social/bandcamp.png" /></a></li>
+    <li class="ms-3" style="  float   : left;"><a class="text-muted" href="#"><img height=50px
+          src="../static/images/social/facebook.png" /></a></li>
+    <li class="ms-3" style="     float   : left;"><a class="text-muted" href="https://www.instagram.com/brutalfekalofficiel/"><img height=50px
+          src="../static/images/social/instagram.png" /></a></li>
+    <li class="ms-3" style="  display: inline-block;"><a class="text-muted" href="https://soundcloud.com/user-68679889"><img height=50px
+          src="../static/images/social/soundcloud-logo.png" /></a></li>
+    <li class="ms-3" style="  display: inline-block;"><a class="text-muted" href="https://www.youtube.com/channel/UCJuuKRquK9ZR1ts88WjkpZA"><img height=50px
+          src="../static/images/social/youtube.png" /></a></li>
+    <li class="ms-3" style="  display: inline-block;padding-right: 50px;"><a class="text-muted" href="#"><img
+          height=50px src="../static/images/social/kickstarter.png" /></a></li>
+
+
+  </ul>
+</footer>
+
+</body>
+
+</html>
