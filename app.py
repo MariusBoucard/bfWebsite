@@ -142,7 +142,7 @@ def bfimgfolder(folder):
         folderInfo = xmlutils.getFolderInfo("./static/images/brutalimages/"+folder+"/config.xml")
         folderobj = f.folder(folderInfo.get('name'),folderInfo.get('description'),folderInfo.get('date'),folderInfo.get('cover'),folderInfo.get("foldernum"))
         imagesXML = xmlutils.getimageList("./static/images/brutalimages/"+folder+"/config.xml")
-        print(imagesXML)
+        print(imagesXML[0].portrait)
 
     return render_template("imggallery.html",images=imagesXML,folder=folder,folderobj=folderobj)
 

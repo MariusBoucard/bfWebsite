@@ -6,8 +6,13 @@
 {%endblock%}
 
 
-
 {%block middlecolumn%}
+<style>
+    /* Create a grid container for the page */
+    .foldername{
+        color : black;
+    }
+    </style>
 
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap" rel="stylesheet">
 <h3 style="font-family: 'BFFont';font-size: 3em; padding-top: 60px;color:black">Ici sont les plus beaux clichés de tes artistes préféré.es !</h3>
@@ -20,6 +25,7 @@
 				<figcaption class="gallery__caption">{{dict1.get(image).description}}</figcaption>
 			</figure>
 		</a>
+		<p class="foldername">{{dict1.get(image).description }}</p>
         {%endfor%}
 	</div>
 	
@@ -31,6 +37,7 @@
 				<figcaption class="gallery__caption">{{dict2.get(image).description}}</figcaption>
 			</figure>
 		</a>
+		<p class="foldername">{{dict2.get(image).description }}</p>
         {%endfor%}
 		
 	
@@ -44,6 +51,7 @@
 				<figcaption class="gallery__caption">{{dict3.get(image).description}}</figcaption>
 			</figure>
 		</a>
+		<p class="foldername">{{dict3.get(image).description }}</p>
         {%endfor%}
 		
 	

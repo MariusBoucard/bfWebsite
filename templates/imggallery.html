@@ -11,8 +11,10 @@
 
         <!-- Barely the only code we need -->
         {%for image in images%}
+        <!-- {{image.portrait}} -->
         {% if image.portrait : %}
-        <div class="column-xs-12 column-md-4">
+        <div class="column-xs-12 column-md-4" style="padding: 20px;">
+          
           <figure class="img-container-port">
             <img class="imggame" src="../static/images/brutalimages/{{folder}}/{{image.path}}" />
             <figcaption class="img-content">
@@ -31,7 +33,8 @@
         {% else %}
         <div class="column-xs-12 column-md-4">
             <figure class="img-container">
-              <img class="imggame" src="../static/images/brutalimages/{{folder}}/{{image.path}}" />
+              <img class="imggame" style="width: 80%;" src="../static/images/brutalimages/{{folder}}/{{image.path}}" />
+              
               <figcaption class="img-content">
                 <h2 class="title">{{image.name}}</h2>
                 <h3 class="category">{{image.description}}</h3>

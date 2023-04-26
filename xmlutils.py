@@ -35,7 +35,7 @@ def getimageList(file_name):
       path=""
       date=""
       index=""
-      port=False
+      portrait=False
       for tag in image:
          if tag.tag == 'name':
             name=tag.text
@@ -49,8 +49,8 @@ def getimageList(file_name):
             index = tag.text
          if tag.tag == "orientation":
             if tag.text == 'portrait' :
-               port = True
-      imgList.append(f.image(name,desc,date,index,path,port))
+               portrait = True
+      imgList.append(f.image(name,desc,date,index,path,portrait))
    imgList.sort(key=lambda x: (x.num))
    return imgList
 
