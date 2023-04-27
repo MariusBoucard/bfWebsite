@@ -52,7 +52,7 @@
 	 transform: translateX(-50%);
 }
  header nav ul li {
-	 transform: translateY(50px);
+	 /* transform: translateY(50px); */
 	 opacity: 0;
 }
  header nav ul li a {
