@@ -81,8 +81,8 @@ There's a ton of different possibilities, that's wwy I mainly steal it lol*/
         /* position: relative; */
         /* display: inline-block; */
         /* insert ratio right here */
-        width:60%;
-        height:calc(60vw*0.68)
+        width:50%;
+        height:calc(50vw*0.89)
 
     }
     .card__innerpaysage

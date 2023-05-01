@@ -1,4 +1,4 @@
-{%extends "base.html"%}
+{%extends "basegroupe.html"%}
 {%block head%}
 <meta name="description" content="Nos plus fraiches diarées">
 <link href="../static/css/blog.css" rel="stylesheet">
@@ -7,7 +7,9 @@
 <title>Fekal News</title>
 {%endblock%}
 {%block middlecolumn%}
-<main class="container" id="wholepq">
+<div id="wholepq" style="text-align: center;">
+  <div style="width:80%;margin : auto;padding-bottom: 200px;padding-top:100px">
+
     <div class="p-4 p-md-5 mb-4 rounded text-bg-dark" style="padding-right : 0px !important;">
       <div class="row">
 
@@ -32,12 +34,12 @@
   
     <div class="row mb-2">
       <div class="col-md-6">
-        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm  position-relative" style="background-color: white;">
+        <div class="row g-0  rounded overflow-hidden flex-md-row mb-4 shadow-sm  position-relative" style="background-color: white;border: 3px solid black;">
           <div class="col p-4 d-flex flex-column position-static">
             <strong class="d-inline-block mb-2 " style="color:#11a2ab">Mendicité</strong>
             <h3 class="mb-0" style="font-family: 'BFFont'; color: #cc0023" >AIDEZ NOUS DANS NOTRE PROJET</h3>
             <div class="mb-1 text-muted">Mai 23</div>
-            <p class="card-text mb-auto" style="color:black;font-size: large;">
+            <p class="card-text mb-auto" style="color:black;font-size: larger;">
               On a besoin de vous !
 Nous avons ouvert une campagne de dons via kickstarter. L’idée est pour nous de financer divers projets, tels que des clips, du merchandising et le financement du pressage de l’album. Tu peux déjà précommander ton CD via la plateforme si cela te fait plaisir, ou nous faire un simple don sans contrepartie. Évidemment, rien n’y oblige, le plus important restant que tu kiffes notre son !
 
@@ -50,12 +52,12 @@ Nous avons ouvert une campagne de dons via kickstarter. L’idée est pour nous 
         </div>
       </div>
       <div class="col-md-6">
-        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm  position-relative" style="background-color: white;">
+        <div class="row g-0 rounded overflow-hidden flex-md-row mb-4 shadow-sm  position-relative" style="background-color: white;border: 3px solid black;">
           <div class="col p-4 d-flex flex-column position-static">
             <strong class="d-inline-block mb-2 " style="color:#11a2ab">Tech</strong>
             <h3 class="mb-0" style="font-family: 'BFFont'; color: #cc0023" >ON A UN SITE !	</h3>
             <div class="mb-1 text-muted">Mai 23</div>
-            <p class="mb-auto" style="color:black;font-size: large;">Un brutal groupe se doit d’avoir un brutal site ! C’est à cette occasion que nous avons le plaisir de vous présenter le site internet officiel de Brutal Fékal ! Développé par Ballzzy et élaboré conjointement avec tous les membres, vous pourrez retrouver toutes les informations du groupe que vous chérissez le plus. En espérant qu’il vous plaise !
+            <p class="mb-auto" style="color:black;font-size: larger;">Un brutal groupe se doit d’avoir un brutal site ! C’est à cette occasion que nous avons le plaisir de vous présenter le site internet officiel de Brutal Fékal ! Développé par Ballzzy et élaboré conjointement avec tous les membres, vous pourrez retrouver toutes les informations du groupe que vous chérissez le plus. En espérant qu’il vous plaise !
 
             </p>
             <a href="/" class="stretched-link" style="color:#11a2ab">Retour a l'accueil</a>
@@ -68,7 +70,10 @@ Nous avons ouvert une campagne de dons via kickstarter. L’idée est pour nous 
 
 
       <br/>
-     
+
+  </div>
+    
+     </div>
 
 
 {%endblock%}
