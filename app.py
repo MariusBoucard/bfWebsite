@@ -195,4 +195,4 @@ def envoicontact():
 # This part is the code that's executed when you lauch the app : 2 lines that makes everything
 if __name__ == "__main__":
     db.create_all()
-    application.run(debug=True,host="0.0.0.0",port="5000")
+    application.run(debug=True,host="0.0.0.0",port="5001")
