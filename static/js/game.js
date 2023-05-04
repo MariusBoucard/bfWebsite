@@ -54,7 +54,7 @@ function preload ()
 {
     this.load.image('logo', './static/assets/Logo.png');
     this.load.image('coin', './static/assets/coin.png');
-    this.load.audio('backgroundMusic', './static/assets/malbouffe.wav');
+    this.load.audio('backgroundMusic', './static/assets/becane.mp3');
     this.load.audio('coinSound', './static/assets/caca.wav');
     this.load.image('background', './static/assets/background.png');
     this.load.image('soundOn', './static/assets/soundOn.png');
@@ -134,8 +134,10 @@ function gameOver() {
     gameOverYouKnow = true;
     // player.setTint(0xff0000); // tint the player red
     gameover_image = that.add.image(400, 300, 'gameover'); // add gameover image
-    endText = that.add.text(350, 200, 'Score: ' + score, { fontSize: '32px', fill: '#fff' });
-    sprite = that.add.sprite(400, 300, 'restartButton');
+    endText = that.add.text(100, 20, 'Nouveau son \n le 7 Juin !', { fontSize: '62px', fill: '#000' });
+
+    endText = that.add.text(350, 300, 'Score: ' + score, { fontSize: '32px', fill: '#fff' });
+    sprite = that.add.sprite(400, 400, 'restartButton');
  
     // code to end the game and display the score
 }
