@@ -4,7 +4,7 @@ var launchState = {
         this.load.image('startButton', 'assets/start_button.png');
     },
     create: function() {
-        this.add.image(400, 300, 'background');
+        this.add.image(849, 600, 'background');
         var startButton = this.add.image(400, 500, 'startButton');
         startButton.setInteractive();
         startButton.on('pointerdown', function() {

@@ -31,12 +31,20 @@ here i ll open the head of the document, put some scripts in it and references a
         text-align: center;
         padding: 10px;
     }
+    @media (max-width : 800px){
+      li a { 
+        color : red;
+        font-size: 40px !important;
+        /* margin-top: 10px; */
+      }
+
+    }
     </style>
 </head>
 
 
 
-<body style="min-height:100vh;">
+<body style="min-height:100vh;position: relative;">
 
 
 
@@ -98,7 +106,7 @@ but that approch can lead to write multiple time the same thing, and so, if you 
                 <ul class="justify-content-center  d-flex " style="width: 100%;  position: absolute; top: 0px;background-color: rgba(255, 255, 255, 0.2);">
                   <li class="ms-3" style="  display: inline-block;"><a class="text-muted" href="https://brutalfekal.bandcamp.com/"><img class="logomenu"
                     src="../static/images/social/bandcampb.png" /></a></li>
-                  <li class="ms-3" style="  display: inline-block;"><a class="text-muted" href="#"><img class="logomenu"
+                  <li class="ms-3" style="  display: inline-block;"><a class="text-muted" href="https://www.facebook.com/profile.php?id=100090713934726"><img class="logomenu"
                         src="../static/images/social/facebookb.png" /></a></li>
                   <li class="ms-3" style="  display: inline-block;"><a class="text-muted" href="https://www.instagram.com/brutalfekalofficiel/"><img class="logomenu"
                         src="../static/images/social/instagramb.png" /></a></li>
@@ -142,7 +150,7 @@ but that approch can lead to write multiple time the same thing, and so, if you 
 
 
 <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 "
-  style="background-color: black; margin-bottom: 0px;">
+  style="width:100%;background-color: black; position : absolute ;bottom: 0px;">
   <div class="col-md-4 d-flex align-items-center">
     <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
       <svg class="bi" width="30" height="24">
@@ -153,17 +161,17 @@ but that approch can lead to write multiple time the same thing, and so, if you 
   </div>
   <p style="color:red; font-size: medium;">Vous fekaliser, c'est notre métier, et on le fera, pour l'éternité</p>
   <ul class="nav col-md-4 justify-content-end list-unstyled d-flex ">
-    <li class="ms-3" style="  display: inline-block;"><a class="text-muted" href="https://brutalfekal.bandcamp.com/"><img height=50px
+    <li class="ms-3" style="  display: inline-block;margin:0;"><a class="text-muted" href="https://brutalfekal.bandcamp.com/"><img height=50px
       src="../static/images/social/bandcamp.png" /></a></li>
-    <li class="ms-3" style="  float   : left;"><a class="text-muted" href="#"><img height=50px
+    <li class="ms-3" style="  float   : left;margin:0;"><a class="text-muted" href="https://www.facebook.com/profile.php?id=100090713934726"><img height=50px
           src="../static/images/social/facebook.png" /></a></li>
-    <li class="ms-3" style="     float   : left;"><a class="text-muted" href="https://www.instagram.com/brutalfekalofficiel/"><img height=50px
+    <li class="ms-3" style="     float   : left;margin:0;"><a class="text-muted" href="https://www.instagram.com/brutalfekalofficiel/"><img height=50px
           src="../static/images/social/instagram.png" /></a></li>
-    <li class="ms-3" style="  display: inline-block;"><a class="text-muted" href="https://soundcloud.com/user-68679889"><img height=50px
+    <li class="ms-3" style="  display: inline-block;margin:0;"><a class="text-muted" href="https://soundcloud.com/user-68679889"><img height=50px
           src="../static/images/social/soundcloud-logo.png" /></a></li>
-    <li class="ms-3" style="  display: inline-block;"><a class="text-muted" href="https://www.youtube.com/channel/UCJuuKRquK9ZR1ts88WjkpZA"><img height=50px
+    <li class="ms-3" style="  display: inline-block;margin:0;"><a class="text-muted" href="https://www.youtube.com/channel/UCJuuKRquK9ZR1ts88WjkpZA"><img height=50px
           src="../static/images/social/youtube.png" /></a></li>
-    <li class="ms-3" style="  display: inline-block;padding-right: 50px;"><a class="text-muted" href="#"><img
+    <li class="ms-3" style="  display: inline-block;padding-right: 50px;margin:0;"><a class="text-muted" href="#"><img
           height=50px src="../static/images/social/kickstarter.png" /></a></li>
 
 

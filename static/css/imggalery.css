@@ -61,6 +61,9 @@ nav li:nth-child(2) {
   transform: scale(1);
   transition: all 0.3s ease-in-out;
 }
+.figure {
+  margin: 0 0 0rem;
+}
 .imggame:hover {
   transform: scale(1.05);
 }

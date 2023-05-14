@@ -1,5 +1,5 @@
-# this_file = "venv/bin/activate_this.py"
-# exec(open(this_file).read(), {'__file__': this_file})
+this_file = "venv/bin/activate_this.py"
+exec(open(this_file).read(), {'__file__': this_file})
 
 # First of all you needs to import everything you'll need
 import smtplib
@@ -13,6 +13,7 @@ from dbUtils import newsletter
 import os
 import folder as f
 import xmlutils
+from flask_sslify import SSLify
 
 # Create the application
 application = Flask(__name__)
@@ -26,7 +27,7 @@ db = SQLAlchemy(application)
 ##############
 #MAIL SERVER CONFIG, YOU'LL HAVE TO PUT YOU RE OWN CREDITENTIALS, DEPENDS ON YOUR PROVIDER
 
-
+sslify = SSLify(application)
 application.config['MAIL_SERVER'] = 'smtp.laposte.net'
 application.config['MAIL_PORT'] = 587
 application.config['MAIL_USERNAME'] = 'brutalfekal@laposte.net'
