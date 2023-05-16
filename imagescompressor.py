@@ -27,7 +27,7 @@ def compress_image(input_path, output_path, quality):
         # Save the compressed image with the specified quality
         image.save(output_path, optimize=True, quality=quality)
 
-def calculate_new_size(size, max_width=1200, max_height=800):
+def calculate_new_size(size, max_width=1200, max_height=1200):
     width, height = size
     ratio = min(max_width / width, max_height / height)
     return int(width * ratio), int(height * ratio)

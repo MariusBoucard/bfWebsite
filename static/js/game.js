@@ -102,13 +102,13 @@ function create ()
             gameover_image.destroy();
             sprite.destroy();
             endText.destroy();
-            livesText = this.add.text(16, 50, 'Lives: ' + lives, { fontSize: '32px', fill: '#000' });
+            livesText = this.add.text(16, 150, 'Vies : ' + lives, { fontSize: '32px', fontWeight:"100px",fill: 'white' });
         }
     });
 
     this.physics.add.collider(player, coins, collectCoin, null, this);
 
-    scoreText = this.add.text(16, 16, 'Grosse chiasse : 0', { fontSize: '32px', fill: 'white' });
+    scoreText = this.add.text(16, 16, 'Grosse\nchiasse\n   0', { fontSize: '32px', fill: 'white' });
 
     backgroundMusic = this.sound.add('backgroundMusic');
     coinSound = this.sound.add('coinSound');
@@ -124,7 +124,7 @@ function create ()
     soundButton.on('pointerup', toggleSound);
 
    
-    livesText = this.add.text(16, 50, 'Lives: ' + lives, { fontSize: '32px', fill: '#000' });
+    livesText = this.add.text(16, 150, 'Vies : ' + lives, { fontSize: '32px', fill: 'white' });
 
 
  
@@ -177,14 +177,14 @@ function collectCoin (player, coin)
         coinSound.play();
     }
     score += 1;
-    scoreText.setText('Chiasses récoltées : ' + score);
+    scoreText.setText('Chiasses\nrécoltées \n    ' + score);
 }
 
 function removeLife(coin) {
     if(!coin.hitBottom){
 
         lives--;
-        livesText.setText('Lives: ' + lives);
+        livesText.setText('Vies : ' + lives);
     }
 
     if (lives === 0) {
