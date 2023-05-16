@@ -41,6 +41,7 @@
 	 visibility: hidden;
 	 transition: all 0.3s ease-in-out;
 	 z-index: 9;
+	 overflow: hidden;
 }
  header nav ul {
 	backdrop-filter: blur(2px);
@@ -49,9 +50,11 @@
 	 margin: 0;
 	 position: absolute;
 	 left: 50%;
-	 top: 170px;
+	 top: 100px;
 	 transition: all 0.3s ease-in-out;
 	 transform: translateX(-50%);
+	 height: calc(100%); /* Adjust the height based on your layout */
+	 overflow-y: auto;
 }
  header nav ul li {
 	 /* transform: translateY(50px); */
