@@ -1,91 +1,116 @@
 <!-- Could maybe use poo things to help ?? -->
 
-<dossier name="Ca repete dur par ici" date="15/10/2020" description="
-ca casse des baguette et casse des Q
-" cover="casse.jpeg" foldernum="1">
+
+
+<dossier name="Brutal répétitions" date="2022" description="Les répétitions - 2022" cover="brutalrepete9.jpeg" foldernum="3">
 
 
 <image>
-<name>Ici pour KCDQ</name>
+<name>Eh mais ça basse un max</name>
 <!-- For the path we just have to set the relative image name -->
-<path>casse.jpeg</path> 
+<path>brutalrepete1.jpeg</path> 
 <!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
 <index>1</index>
 <!-- Date -->
-<date>15/40/65</date>
-<description>Ce breakdown douloureux a encore eu raison de mes baguettes</description>
+<date>09/2022</date>
+<description> </description>
 <orientation>portrait</orientation>
 </image>
 
 
 <image>
-<name>Le pont melodique</name>
+<name>On se bouche les oreilles comme on peut</name>
 <!-- For the path we just have to set the relative image name -->
-<path>ball.jpeg</path> 
+<path>brutalrepete2.jpeg</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>2</index>
+<!-- Date -->
+<date>09/2022</date>
+<description> </description>
+<orientation>portrait</orientation>
+</image>
+
+<image>
+<name>Après avoir bien slidé le manche</name>
+<!-- For the path we just have to set the relative image name -->
+<path>brutalrepete3.jpeg</path> 
 <!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
 <index>3</index>
 <!-- Date -->
-<date>15/40/65</date>
-<description>La caresse d'une feuille de PQ contre la rondelle #bukolik</description>
+<date>09/2022</date>
+<description> </description>
 <orientation>portrait</orientation>
 </image>
 
 <image>
-<name>Protegez vos oreilles</name>
+<name>Préparation avant de mettre le feu</name>
 <!-- For the path we just have to set the relative image name -->
-<path>tampon.jpeg</path> 
+<path>brutalrepete4.jpeg</path> 
 <!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
 <index>4</index>
 <!-- Date -->
-<date>15/40/65</date>
-<description>Publication sponsorisée par Nana</description>
+<date>09/2022</date>
+<description> </description>
 <orientation>portrait</orientation>
 </image>
 
 <image>
-<name>Le cantique</name>
+<name>Scratman a réussi son break</name>
 <!-- For the path we just have to set the relative image name -->
-<path>fewracks.jpeg</path> 
+<path>brutalrepete5.jpeg</path> 
 <!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
 <index>5</index>
 <!-- Date -->
-<date>15/40/65</date>
-<description>Ecoutez donc ces doux versets</description>
+<date>09/2022</date>
+<description> </description>
 <orientation>portrait</orientation>
 </image>
+
 <image>
-<name>La banane</name>
+<name>2 lumières dans l’ombre</name>
 <!-- For the path we just have to set the relative image name -->
-<path>ballzzz.jpeg</path> 
+<path>brutalrepete6.jpeg</path> 
 <!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
 <index>6</index>
 <!-- Date -->
-<date>15/40/65</date>
-<description>Toujours ces gratteux qu'on attend</description>
+<date>09/2022</date>
+<description> </description>
 <orientation>portrait</orientation>
 </image>
 
 <image>
-<name>L'automne</name>
+<name>Ballzzy heureux d’être content</name>
 <!-- For the path we just have to set the relative image name -->
-<path>ninsdos.jpeg</path> 
+<path>brutalrepete7.jpeg</path> 
 <!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
 <index>7</index>
 <!-- Date -->
-<date>15/40/65</date>
-<description>Le vent, l'horizon, comme une envie soudaine de m'accroupir sous un buisson</description>
+<date>09/2022</date>
+<description> </description>
 <orientation>portrait</orientation>
 </image>
 
 <image>
-<name>Quand il voit la reforme de Blanker</name>
+<name>Scrtaman s’est un peu emporté</name>
 <!-- For the path we just have to set the relative image name -->
-<path>scratm.jpeg</path> 
+<path>brutalrepete8.jpeg</path> 
 <!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
-<index>7</index>
+<index>8</index>
 <!-- Date -->
-<date>15/40/65</date>
-<description>L'effort est intense, la sueur est amer</description>
+<date>09/2022</date>
+<description> </description>
+<orientation>portrait</orientation>
+</image>
+
+<image>
+<name>Flou artistique, comme Brutal Fékal</name>
+<!-- For the path we just have to set the relative image name -->
+<path>brutalrepete9.jpeg</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>9</index>
+<!-- Date -->
+<date>09/2022</date>
+<description> </description>
 <orientation>portrait</orientation>
 </image>
 

@@ -1,0 +1,128 @@
+
+
+<dossier name="Concert au Gazoline (Rennes) – Novembre 2022" date="2022" description="Le concert mythique" cover="gazoline6.jpg" foldernum="4">
+
+
+<image>
+<name>Few-Racks et Hugode en duo !</name>
+<!-- For the path we just have to set the relative image name -->
+<path>gazoline1.jpg</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>1</index>
+<!-- Date -->
+<date>12/11/2022</date>
+<description> </description>
+<orientation>portrait</orientation>
+</image>
+
+
+<image>
+<name>Ballzzy on fire</name>
+<!-- For the path we just have to set the relative image name -->
+<path>gazoline2.jpg</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>2</index>
+<!-- Date -->
+<date>12/11/2022</date>
+<description> </description>
+<orientation>portrait</orientation>
+</image>
+
+<image>
+<name>Scratman casse tout</name>
+<!-- For the path we just have to set the relative image name -->
+<path>gazoline3.jpg</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>3</index>
+<!-- Date -->
+<date>12/11/2022</date>
+<description> </description>
+<orientation>portrait</orientation>
+</image>
+
+<image>
+<name>Ce growl de folie</name>
+<!-- For the path we just have to set the relative image name -->
+<path>gazoline4.jpg</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>4</index>
+<!-- Date -->
+<date>12/11/2022</date>
+<description> </description>
+<orientation>paysage</orientation>
+</image>
+
+<image>
+<name>Hugode vient de lacher son meilleur breakdown</name>
+<!-- For the path we just have to set the relative image name -->
+<path>gazoline5.jpg</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>5</index>
+<!-- Date -->
+<date>12/11/2022</date>
+<description> </description>
+<orientation>paysage</orientation>
+</image>
+
+<image>
+<name>Moment complice dans l’accordage</name>
+<!-- For the path we just have to set the relative image name -->
+<path>gazoline6.jpg</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>6</index>
+<!-- Date -->
+<date>12/11/2022</date>
+<description> </description>
+<orientation>paysage</orientation>
+</image>
+
+<image>
+<name>L’alcool, à consommer avec les membres du groupe</name>
+<!-- For the path we just have to set the relative image name -->
+<path>gazoline7.jpg</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>7</index>
+<!-- Date -->
+<date>12/11/2022</date>
+<description> </description>
+<orientation>portrait</orientation>
+</image>
+
+<image>
+<name>Backzzy</name>
+<!-- For the path we just have to set the relative image name -->
+<path>gazoline8.jpg</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>8</index>
+<!-- Date -->
+<date>12/11/2022</date>
+<description> </description>
+<orientation>portrait</orientation>
+</image>
+
+<image>
+<name>Quand tu remarques que tu joues un banger</name>
+<!-- For the path we just have to set the relative image name -->
+<path>gazoline9.jpg</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>9</index>
+<!-- Date -->
+<date>12/11/2022</date>
+<description> </description>
+<orientation>paysage</orientation>
+</image>
+
+<image>
+<name>Scratman dans l’ombre de Few-Racks</name>
+<!-- For the path we just have to set the relative image name -->
+<path>gazoline10.jpg</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>10</index>
+<!-- Date -->
+<date>12/11/2022</date>
+<description> </description>
+<orientation>paysage</orientation>
+</image>
+
+</dossier>
+

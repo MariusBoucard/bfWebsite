@@ -1,0 +1,247 @@
+<dossier name="Petit Shooting improvisé à Rennes – Janvier 2023" date="2023" description="Parce qu’on est bgs de fou" cover="Shootrennes10.JPG" foldernum="5">
+
+
+<image>
+<name>Cheeeeeeese</name>
+<!-- For the path we just have to set the relative image name -->
+<path>Shootrennes1.JPG</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>1</index>
+<!-- Date -->
+<date>01/2023</date>
+<description> </description>
+<orientation>paysage</orientation>
+</image>
+
+
+<image>
+<name>Un peu trop de cheveux</name>
+<!-- For the path we just have to set the relative image name -->
+<path>Shootrennes2.JPG</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>2</index>
+<!-- Date -->
+<date>01/2023</date>
+<description> </description>
+<orientation>paysage</orientation>
+</image>
+
+<image>
+<name>Un peu trop d’ombre de bon matin</name>
+<!-- For the path we just have to set the relative image name -->
+<path>Shootrennes3.JPG</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>3</index>
+<!-- Date -->
+<date>01/2023</date>
+<description> </description>
+<orientation>paysage</orientation>
+</image>
+
+<image>
+<name>Sa sainteté Brutalus Fékalus</name>
+<!-- For the path we just have to set the relative image name -->
+<path>Shootrennes4.JPG</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>4</index>
+<!-- Date -->
+<date>01/2023</date>
+<description> </description>
+<orientation>paysage</orientation>
+</image>
+
+<image>
+<name>Few-Racks a trop de style avec la casquette officielle</name>
+<!-- For the path we just have to set the relative image name -->
+<path>Shootrennes5.JPG</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>5</index>
+<!-- Date -->
+<date>01/2023</date>
+<description> </description>
+<orientation>paysage</orientation>
+</image>
+
+<image>
+<name>Scratman qui gache tout à tirer la gueule</name>
+<!-- For the path we just have to set the relative image name -->
+<path>Shootrennes6.JPG</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>6</index>
+<!-- Date -->
+<date>01/2023</date>
+<description> </description>
+<orientation>paysage</orientation>
+</image>
+
+<image>
+<name>Ballzzy sent passer le manque de suspensions</name>
+<!-- For the path we just have to set the relative image name -->
+<path>Shootrennes7.JPG</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>7</index>
+<!-- Date -->
+<date>01/2023</date>
+<description> </description>
+<orientation>paysage</orientation>
+</image>
+
+<image>
+<name>Parce qu’on est quand même sérieux des fois</name>
+<!-- For the path we just have to set the relative image name -->
+<path>Shootrennes8.JPG</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>8</index>
+<!-- Date -->
+<date>01/2023</date>
+<description> </description>
+<orientation>paysage</orientation>
+</image>
+
+<image>
+<name>Rien ni personne n’arrête notre bécane</name>
+<!-- For the path we just have to set the relative image name -->
+<path>Shootrennes9.JPG</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>9</index>
+<!-- Date -->
+<date>01/2023</date>
+<description> </description>
+<orientation>paysage</orientation>
+</image>
+
+<image>
+<name>La perspective à son paroxysme</name>
+<!-- For the path we just have to set the relative image name -->
+<path>Shootrennes10.JPG</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>10</index>
+<!-- Date -->
+<date>01/2023</date>
+<description> </description>
+<orientation>paysage</orientation>
+</image>
+
+<image>
+<name>Avec le sourire c’est mieux</name>
+<!-- For the path we just have to set the relative image name -->
+<path>Shootrennes11.JPG</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>11</index>
+<!-- Date -->
+<date>01/2023</date>
+<description> </description>
+<orientation>paysage</orientation>
+</image>
+
+
+<image>
+<name>Découvrez Rennes, son opéra, son groupe mythique…</name>
+<!-- For the path we just have to set the relative image name -->
+<path>Shootrennes12.JPG</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>12</index>
+<!-- Date -->
+<date>01/2023</date>
+<description> </description>
+<orientation>paysage</orientation>
+</image>
+
+<image>
+<name>La joie</name>
+<!-- For the path we just have to set the relative image name -->
+<path>Shootrennes13.JPG</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>13</index>
+<!-- Date -->
+<date>01/2023</date>
+<description> </description>
+<orientation>paysage</orientation>
+</image>
+
+<image>
+<name>Un peu d’eau fraiche et de verdure</name>
+<!-- For the path we just have to set the relative image name -->
+<path>Shootrennes14.JPG</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>14</index>
+<!-- Date -->
+<date>01/2023</date>
+<description> </description>
+<orientation>paysage</orientation>
+</image>
+
+<image>
+<name>Poing américouilles au soleil</name>
+<!-- For the path we just have to set the relative image name -->
+<path>Shootrennes15.JPG</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>15</index>
+<!-- Date -->
+<date>01/2023</date>
+<description> </description>
+<orientation>paysage</orientation>
+</image>
+
+<image>
+<name>Siiiiiiiiiisi</name>
+<!-- For the path we just have to set the relative image name -->
+<path>Shootrennes16.JPG</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>16</index>
+<!-- Date -->
+<date>01/2023</date>
+<description> </description>
+<orientation>paysage</orientation>
+</image>
+
+<image>
+<name>La défaite</name>
+<!-- For the path we just have to set the relative image name -->
+<path>Shootrennes17.JPG</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>17</index>
+<!-- Date -->
+<date>01/2023</date>
+<description> </description>
+<orientation>paysage</orientation>
+</image>
+
+<image>
+<name>On est trop d4rk pour le soleil</name>
+<!-- For the path we just have to set the relative image name -->
+<path>Shootrennes18.JPG</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>18</index>
+<!-- Date -->
+<date>01/2023</date>
+<description> </description>
+<orientation>paysage</orientation>
+</image>
+
+<image>
+<name>La repentance</name>
+<!-- For the path we just have to set the relative image name -->
+<path>Shootrennes19.JPG</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>19</index>
+<!-- Date -->
+<date>01/2023</date>
+<description> </description>
+<orientation>paysage</orientation>
+</image>
+
+<image>
+<name>EN Y SUR LES DOS D’ANE</name>
+<!-- For the path we just have to set the relative image name -->
+<path>Shootrennes20.JPG</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>20</index>
+<!-- Date -->
+<date>01/2023</date>
+<description> </description>
+<orientation>paysage</orientation>
+</image>
+
+</dossier>
+

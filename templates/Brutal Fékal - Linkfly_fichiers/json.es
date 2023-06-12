@@ -1,0 +1,1 @@
+cbgeo({"status":"fail","message":"Origin restriction, modify at https://members.ip-api.com/keys"});

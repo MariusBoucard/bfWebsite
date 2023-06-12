@@ -33,6 +33,6 @@ def calculate_new_size(size, max_width=1200, max_height=1200):
     return int(width * ratio), int(height * ratio)
 
 # Example usage
-folder_path = './static'
-output_folder = './static'
+folder_path = './static/images/brutalimages/2022repet'
+output_folder = './static/images/brutalimages/2022repet'
 compress_images(folder_path, output_folder)

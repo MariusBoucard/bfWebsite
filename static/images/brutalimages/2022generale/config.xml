@@ -1,80 +1,81 @@
 <!-- Could maybe use poo things to help ?? -->
 
 <dossier name="Repète generale avant le GAZOOO" date="15/10/2020" description="
-En direct du local
+La Générale avant le Gazoline ! 11/11/2022
 " cover="nrv.jpg" foldernum="0">
 
 
 <image>
-<name></name>
+<name>Pooing</name>
 <!-- For the path we just have to set the relative image name -->
 <path>nrv.jpg</path> 
 <!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
 <index>1</index>
 <!-- Date -->
-<date>15/40/65</date>
-<description>Pooing</description>
+<date>11/11/2022</date>
+<description> </description>
 <orientation>portrait</orientation>
 </image>
 
 
 <image>
-<name>Il était une fois</name>
+<name>Père Castor, raconte nous une histoire</name>
 <!-- For the path we just have to set the relative image name -->
 <path>groupetopin.jpg</path> 
 <!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
 <index>2</index>
 <!-- Date -->
-<date>15/40/65</date>
-<description>Pere castor, raconte nous une histoire</description>
+<date>11/11/2022</date>
+<description> </description>
 </image>
 
 <image>
-<name>Scratman est trop dark</name>
+<name>Scratman est trop d4rk</name>
 <!-- For the path we just have to set the relative image name -->
 <path>scratsombre.jpg</path> 
 <!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
 <index>3</index>
 <!-- Date -->
-<date>15/40/65</date>
-<description>#emo</description>
+<date>11/11/2022</date>
+<description> </description>
 <orientation>portrait</orientation>
 </image>
 
 <image>
-<name>Il est arrivé si vite</name>
+<name>Ambiance tamisée mais son explosif</name>
 <!-- For the path we just have to set the relative image name -->
 <path>bandmetal.jpg</path> 
 <!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
 <index>4</index>
 <!-- Date -->
-<date>15/40/65</date>
-<description>Pas la pour chier dans la colle</description>
+<date>11/11/2022</date>
+<description> </description>
 <orientation>portrait</orientation>
 </image>
 
 <image>
-<name>Ballzzy</name>
+<name>Ballzzy bouffe ses cheveux</name>
 <!-- For the path we just have to set the relative image name -->
 <path>ballzzymetal.jpg</path> 
 <!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
 <index>5</index>
 <!-- Date -->
-<date>15/40/65</date>
-<description>Des cheveux aux vent et des riffs endiablés</description>
+<date>11/11/2022</date>
+<description> </description>
 <orientation>portrait</orientation>
 </image>
 
 <image>
-<name>De la poésie</name>
+<name>3 voix, 3 fois plus de plaisir</name>
 <!-- For the path we just have to set the relative image name -->
 <path>banddark.jpg</path> 
 <!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
 <index>6</index>
 <!-- Date -->
-<date>15/40/65</date>
-<description>Car oui, c'est aussi ça être bukolik</description>
+<date>11/11/2022</date>
+<description> </description>
 <orientation>portrait</orientation>
 </image>
 
 </dossier>
+

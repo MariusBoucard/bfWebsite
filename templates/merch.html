@@ -1,6 +1,11 @@
 {%extends "base.html"%}
 {%block head%}
-
+<script>
+	var buyButton = document.getElementById("buyButton");
+	buyButton.addEventListener("click", function() {
+	  window.location.href = "https://www.kickstarter.com/projects/brutalfekal/bukolik-le-premier-album-de-brutal-fekal";
+	});
+  </script>
 <link href="../static/css/merch.css" type="text/css" rel="stylesheet" />
 <title>Brutal Merch</title>
 {%endblock%}
@@ -8,6 +13,7 @@
 <h1 style="color:white">Tout notre merch s’offre à toi ! N’hésite pas à nous donner ton salaire et te nourrir uniquement d’eau le reste du mois !
 </h1>
 <ul class="tilesWrap">
+	<a href="https://www.kickstarter.com/projects/brutalfekal/bukolik-le-premier-album-de-brutal-fekal">
 	<li>
 		<h2>CD</h2>
 		<h3>CD</h3>
@@ -16,8 +22,12 @@
 			Tu veux écouter nos giga bangers n'importe où ?
             Prend un CD !
 		</p>
-		<button onclick="window.location='http\:\/\/www.pornhub.com'">Acheter un CD</button>
-	</li>
+
+			<button>Acheter un CD</button>
+		</li>
+	</a>
+	<a href="https://www.kickstarter.com/projects/brutalfekal/bukolik-le-premier-album-de-brutal-fekal">
+
 	<li>
 		<h2>T-S</h2>
 		<h3>T-Shirt</h3>
@@ -25,10 +35,13 @@
 			T'as toujours révé d'arborer fierement les couleurs de BF ?
 		</p>
         <img src="../static/images/merch/tshirt.png" style="width: 100%;"/>
-		<button onclick="window.location='http\:\/\/www.pornhub.com'">Acheter ton T-Shirt</button>
+		<button onclick="window.location='https\:\/\/www.kickstarter.com/projects/brutalfekal/bukolik-le-premier-album-de-brutal-fekal'">Acheter ton T-Shirt</button>
 	</li>
+	</a>
 	</ul>
 	<ul class="tilesWrap">
+		<a href="https://www.kickstarter.com/projects/brutalfekal/bukolik-le-premier-album-de-brutal-fekal">
+
 	<li>
 		<h2>Pat</h2>
 		<h3>Patch</h3>
@@ -36,16 +49,20 @@
 			Tu veux des gros patches a mettre sur ta petite veste ?
 		</p>
         <img src="../static/images/merch/patch.png" style="width: 100%;"/>
-		<button>Achter un patch</button>
+		<button onclick="window.location='https\:\/\/www.kickstarter.com/projects/brutalfekal/bukolik-le-premier-album-de-brutal-fekal'" >Achter un patch</button>
 	</li>
-	<li>
+	</a>
+	<a href="https://www.kickstarter.com/projects/brutalfekal/bukolik-le-premier-album-de-brutal-fekal">
+		<li>
 		<h2>$$</h2>
 		<h3>Nous filer de la thune</h3>
 		<p>
 			Bah ouais car ca coute cher de faire un album et tout, donc si tu veux nous soutenir
 		</p>
         <img src="../static/images/jul.jpeg" style="width: 100%;"/>
-		<button>Nous acheter des bières</button>
-	</li>
+
+			<button id="buyButton"  onclick="window.location='https\://www.kickstarter.com/projects/brutalfekal/bukolik-le-premier-album-de-brutal-fekal'" >Nous acheter des bières</button>
+		</li>
+	</a>
 </ul>
 {%endblock%}

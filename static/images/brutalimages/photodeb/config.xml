@@ -1,0 +1,128 @@
+<!-- Could maybe use poo things to help ?? -->
+
+<dossier name="Les débuts du groupe !" date="2021" description="
+Les débuts - 2021" cover="onestpasbranches.jpg" foldernum="1">
+
+
+<image>
+<name>On s’est trompé d’instruments</name>
+<!-- For the path we just have to set the relative image name -->
+<path>Mauvaisinstruments.jpg</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>1</index>
+<!-- Date -->
+<date>07/2021</date>
+<description> </description>
+<orientation>portrait</orientation>
+</image>
+
+
+<image>
+<name>Emotional Ballzzy</name>
+<!-- For the path we just have to set the relative image name -->
+<path>Ballzzyemotional.jpeg</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>2</index>
+<!-- Date -->
+<date>12/2021</date>
+<description> </description>
+<orientation>portrait</orientation>
+</image>
+
+<image>
+<name>Few-Racks, raconte nous une histoire</name>
+<!-- For the path we just have to set the relative image name -->
+<path>FewRacksHistoire.jpeg</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>3</index>
+<!-- Date -->
+<date>12/2021</date>
+<description> </description>
+<orientation>portrait</orientation>
+</image>
+
+<image>
+<name>Scratbacks</name>
+<!-- For the path we just have to set the relative image name -->
+<path>Scratmansing.jpeg</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>4</index>
+<!-- Date -->
+<date>12/2021</date>
+<description> </description>
+<orientation>portrait</orientation>
+</image>
+
+<image>
+<name>Les yeux pétillants devant les guests</name>
+<!-- For the path we just have to set the relative image name -->
+<path>Fewracksadmiration.JPG</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>5</index>
+<!-- Date -->
+<date>12/2021</date>
+<description> </description>
+<orientation>portrait</orientation>
+</image>
+
+<image>
+<name>Boulot boulot boulot</name>
+<!-- For the path we just have to set the relative image name -->
+<path>Bassplayeeeeer.jpg</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>6</index>
+<!-- Date -->
+<date>07/2021</date>
+<description> </description>
+
+</image>
+
+<image>
+<name>Chic pour rouler en bécane</name>
+<!-- For the path we just have to set the relative image name -->
+<path>becanelunettes.jpg</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>7</index>
+<!-- Date -->
+<date>07/2021</date>
+<description> </description>
+<orientation>portrait</orientation>
+</image>
+
+<image>
+<name>Rien ni personne n’arrête notre bécane</name>
+<!-- For the path we just have to set the relative image name -->
+<path>becane.jpg</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>8</index>
+<!-- Date -->
+<date>07/2021</date>
+<description> </description>
+<orientation>portrait</orientation>
+</image>
+
+<image>
+<name>Après une grosse session d’enregistrements</name>
+<!-- For the path we just have to set the relative image name -->
+<path>ptitepause.jpg</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>9</index>
+<!-- Date -->
+<date>07/2021</date>
+<description> </description>
+<orientation>portrait</orientation>
+</image>
+
+<image>
+<name>Le plaisir est présent</name>
+<!-- For the path we just have to set the relative image name -->
+<path>onestpasbranches.jpg</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>10</index>
+<!-- Date -->
+<date>07/2021</date>
+<description> </description>
+<orientation>portrait</orientation>
+</image>
+
+</dossier>

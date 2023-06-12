@@ -1,0 +1,67 @@
+<!-- Could maybe use poo things to help ?? -->
+
+<dossier name="Brutal Fékal objects" date="2021" description="Nos artefacts" cover="Stickersbache.jpg" foldernum="2">
+
+
+<image>
+<name>Les petites cartes de fidélité</name>
+<!-- For the path we just have to set the relative image name -->
+<path>cartesbf.jpg</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>1</index>
+<!-- Date -->
+<date>07/2021</date>
+<description> </description>
+<orientation>portrait</orientation>
+</image>
+
+
+<image>
+<name>Le PQ</name>
+<!-- For the path we just have to set the relative image name -->
+<path>pq.jpg</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>2</index>
+<!-- Date -->
+<date>08/2021</date>
+<description> </description>
+
+</image>
+
+<image>
+<name>La casquette officielle</name>
+<!-- For the path we just have to set the relative image name -->
+<path>Casquettebf.jpg</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>3</index>
+<!-- Date -->
+<date>08/2022</date>
+<description> </description>
+<orientation>paysage</orientation>
+</image>
+
+<image>
+<name>Le fond de scene (et le t-shirt porté par Few-Racks Sheep !)</name>
+<!-- For the path we just have to set the relative image name -->
+<path>Bachetshirt.jpg</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>4</index>
+<!-- Date -->
+<date>12/11/2022</date>
+<description> </description>
+<orientation>paysage</orientation>
+</image>
+
+<image>
+<name>Les stickers (et la bâche !)</name>
+<!-- For the path we just have to set the relative image name -->
+<path>Stickersbache.jpg</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>5</index>
+<!-- Date -->
+<date>04/2023</date>
+<description> </description>
+<orientation>portrait</orientation>
+</image>
+
+</dossier>

@@ -1,0 +1,92 @@
+<!-- Could maybe use poo things to help ?? -->
+
+<dossier name="Ca repete dur par ici" date="15/10/2020" description="
+ca casse des baguette et casse des Q
+" cover="casse.jpeg" foldernum="1">
+
+
+<image>
+<name>Ici pour KCDQ</name>
+<!-- For the path we just have to set the relative image name -->
+<path>casse.jpeg</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>1</index>
+<!-- Date -->
+<date>15/40/65</date>
+<description>Ce breakdown douloureux a encore eu raison de mes baguettes</description>
+<orientation>portrait</orientation>
+</image>
+
+
+<image>
+<name>Le pont melodique</name>
+<!-- For the path we just have to set the relative image name -->
+<path>ball.jpeg</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>3</index>
+<!-- Date -->
+<date>15/40/65</date>
+<description>La caresse d'une feuille de PQ contre la rondelle #bukolik</description>
+<orientation>portrait</orientation>
+</image>
+
+<image>
+<name>Protegez vos oreilles</name>
+<!-- For the path we just have to set the relative image name -->
+<path>tampon.jpeg</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>4</index>
+<!-- Date -->
+<date>15/40/65</date>
+<description>Publication sponsorisée par Nana</description>
+<orientation>portrait</orientation>
+</image>
+
+<image>
+<name>Le cantique</name>
+<!-- For the path we just have to set the relative image name -->
+<path>fewracks.jpeg</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>5</index>
+<!-- Date -->
+<date>15/40/65</date>
+<description>Ecoutez donc ces doux versets</description>
+<orientation>portrait</orientation>
+</image>
+<image>
+<name>La banane</name>
+<!-- For the path we just have to set the relative image name -->
+<path>ballzzz.jpeg</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>6</index>
+<!-- Date -->
+<date>15/40/65</date>
+<description>Toujours ces gratteux qu'on attend</description>
+<orientation>portrait</orientation>
+</image>
+
+<image>
+<name>L'automne</name>
+<!-- For the path we just have to set the relative image name -->
+<path>ninsdos.jpeg</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>7</index>
+<!-- Date -->
+<date>15/40/65</date>
+<description>Le vent, l'horizon, comme une envie soudaine de m'accroupir sous un buisson</description>
+<orientation>portrait</orientation>
+</image>
+
+<image>
+<name>Quand il voit la reforme de Blanker</name>
+<!-- For the path we just have to set the relative image name -->
+<path>scratm.jpeg</path> 
+<!-- Index it will be displayed, we'll use this to create a list of images or a dictionnary -->
+<index>7</index>
+<!-- Date -->
+<date>15/40/65</date>
+<description>L'effort est intense, la sueur est amer</description>
+<orientation>portrait</orientation>
+</image>
+
+</dossier>

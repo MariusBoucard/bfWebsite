@@ -1,9 +1,9 @@
-# this_file = "venv/bin/activate_this.py"
-# exec(open(this_file).read(), {'__file__': this_file})
+this_file = "venv/bin/activate_this.py"
+exec(open(this_file).read(), {'__file__': this_file})
 
 # First of all you needs to import everything you'll need
 import smtplib
-from flask import Flask, flash, redirect, render_template, request, url_for
+from flask import Flask, flash, redirect, render_template, request, send_file, url_for
 from flask_mail import Mail, Message
 from flask_sqlalchemy import SQLAlchemy
 # theses are some things written in another file called dbUtils
@@ -27,7 +27,7 @@ db = SQLAlchemy(application)
 ##############
 #MAIL SERVER CONFIG, YOU'LL HAVE TO PUT YOU RE OWN CREDITENTIALS, DEPENDS ON YOUR PROVIDER
 
-# sslify = SSLify(application)
+sslify = SSLif  y(application)
 application.config['MAIL_SERVER'] = 'smtp.laposte.net'
 application.config['MAIL_PORT'] = 587
 application.config['MAIL_USERNAME'] = 'brutalfekal@laposte.net'
@@ -69,6 +69,10 @@ def newslet():
 @application.route("/nocookies")
 def nocookies():
     return render_template("nocookies.html")
+
+@application.route("/linktree")
+def linktree():
+    return render_template("linktree.html")
 
 # This one is quite different, there's some computation in it because I use data.
 # The website user will send us some data, so we have to specify methods=["GET","POST"]
@@ -192,6 +196,11 @@ def envoicontact():
             flash("As tu bien remplis tous les champs ?")
     return redirect(url_for("contact"))
 
+@application.route("/sitemap.xml")
+def sitemap():
+    filename = os.path.join(os.getcwd(),f'static/sitemap.xml')
+    return send_file(filename)
+   
 # THe redirect thing is just to prevent creating new routes, it redirects toward another one
 # This part is the code that's executed when you lauch the app : 2 lines that makes everything
 if __name__ == "__main__":
