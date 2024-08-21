@@ -1,0 +1,31 @@
+<!-- this specifies the inheritance with base.html, so I'll use the same template -->
+{%extends "base.html"%}
+{%block head%}
+<!-- Here I add some things in the previous defined head block -->
+<meta name="description" content="Pour prendre contact avec nous">
+<!-- <link href="../static/css/blog.css" rel="stylesheet"> -->
+<title>Contacter Brutal Fekal</title>
+{%endblock%}
+
+{%block middlecolumn%}
+<div id="wholepq" >
+  <!-- this thing is helpfull, as you saw in the app.py file, there's some flash things
+  that's the way to display it to the user -->
+    {% with messages = get_flashed_messages()%}
+    {%if messages%}
+    {%for msg in messages%}
+    <p>{{msg}}</p>
+    {% endfor%}
+    {%endif%}
+    {%endwith%}
+<h1 style="max-width: 50%;margin: auto; margin-top:50px;color:black;">JOYEUX ANNIVERSAIRE ZOUUUUUUUUUUUUUUUU !!!!! </h1>
+<p style="color:grey">Je crois que jadou t'a préparé.e une chose normale pour une journée normale comme ça !</p>
+
+<div style="margin-bottom: 100px;">
+    <img style="margin-bottom:100px  ;" src="../static/images/enplus/gandhi.jpg"/>
+
+</div>
+
+</div>
+
+{%endblock%}

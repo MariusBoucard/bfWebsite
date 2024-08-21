@@ -1,0 +1,55 @@
+{%extends "base.html"%}
+{%block head%}
+<link rel="stylesheet" type="text/css" href="../static/css/imggalery.css" />
+<title>{{folderobj.name}} - Brutal Fekal</title>
+{%endblock%}
+{%block middlecolumn%}
+<h1 style="color:black">Est ce qu'on rajoute la déscription du dossier ici ?</h1>
+  <section class="gallery">
+    <div class="container">
+      <div class="grid">
+
+        <!-- Barely the only code we need -->
+        {%for image in images%}
+        {% if image.portrait : %}
+        <div class="column-xs-12 column-md-4">
+          <figure class="img-container-port">
+            <img class="imggame" src="../static/images/brutalimages/{{folder}}/{{image.path}}" />
+            <figcaption class="img-content">
+              <h2 class="title">{{image.name}}</h2>
+              <h3 class="category">{{image.description}}</h3>
+              <h3 class="category">{{image.date}}</h3>
+            </figcaption>
+            <span class="img-content-hover">
+                <h2 class="title">{{image.name}}</h2>
+                <h3 class="category">{{image.description}}</h3>
+                <h3 class="category">{{image.date}}</h3>
+
+            </span>
+          </figure>
+        </div>
+        {% else %}
+        <div class="column-xs-12 column-md-4">
+            <figure class="img-container">
+              <img class="imggame" src="../static/images/brutalimages/{{folder}}/{{image.path}}" />
+              <figcaption class="img-content">
+                <h2 class="title">{{image.name}}</h2>
+                <h3 class="category">{{image.description}}</h3>
+                <h3 class="category">{{image.date}}</h3>
+              </figcaption>
+              <span class="img-content-hover">
+                  <h2 class="title">{{image.name}}</h2>
+                  <h3 class="category">{{image.description}}</h3>
+                  <h3 class="category">{{image.date}}</h3>
+  
+              </span>
+            </figure>
+          </div>
+        {%endif%}
+        {%endfor%}
+
+       
+  </section>
+  <script src="../static/js/imggalery.js"></script>
+
+{%endblock%}

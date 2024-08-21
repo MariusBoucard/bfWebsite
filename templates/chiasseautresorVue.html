@@ -1,0 +1,134 @@
+{%extends "basegroupe.html"%}
+{%block head%}
+<meta name="description" content="Paré pour l'aventure ?">
+<link href="../static/css/blog.css" rel="stylesheet">
+<link href="../static/css/flip.css" rel="stylesheet">
+
+<title>Chiasse au tresor</title>
+{%endblock%}
+{%block middlecolumn%}
+<style>
+
+  .image-list-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap : 10px;
+  }
+  .list-item {
+  list-style-type: none;
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+}
+
+.picture {
+  width: 20%;
+  height: 0;
+  padding-bottom: 20%; /* Creates a square shape */
+}
+
+.content {
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+.name {
+  margin: 0;
+  font-size: 18px;
+}
+
+.time {
+  margin: 0;
+  font-size: 14px;
+  color: #888;
+}
+
+label {
+  
+        font-size: 20px; /* Adjust the font size as needed */
+        color: black;
+    }
+
+    /* Style the input fields */
+    input[type="text"] {
+        width: 50%;
+        padding: 10px;
+        margin-bottom: 10px;
+        font-size: 16px; /* Adjust the font size as needed */
+    }
+
+    /* Style the submit button */
+    input[type="submit"] {
+        background-color: #ff0000; /* Change the button color as desired */
+        color: white;
+        padding: 5px 10px; /* Adjust the padding to make it smaller */
+        font-size: 25px; /* Adjust the font size as needed */
+        border: none;
+        cursor: pointer;
+        margin-top: 10px; /* Add margin to center the button under the last input */
+    }
+</style>
+<div id="wholepq" style="text-align: center;">
+  <div style="width:80%;margin : auto;padding-bottom: 200px;padding-top:100px">
+    <div class="container">
+      <h1 style="color : black;font-family: 'BFFont';">Salut les BFF*!</h1>
+      <p style="color:black;width:60%;margin:auto;">Une grande chiasse au trésor est en cours dans tout Rennes !</p>
+
+      <p style="color:black;width:60%;margin:auto;margin-top:20px;">Nous avons disposé 3 stickers avec un QR code dessus dans tout Rennes, les 3 premières personnes à les trouver
+      gagneront notre album Bukolik !!! </p>
+
+      <p style="margin-top:20px;color:black;width:60%;margin:auto;margin-top:20px;">En vrai, Rennes c'est un peu grand, donc on vous donne des indices sur notre compte Instagram, à vous de jouer !</p>
+        
+      <a href="https://www.instagram.com/brutalfekalofficiel/" style="text-decoration: none;">
+        <div style="width:40%;background-color: red;color:white;margin: auto;margin-top: 20px;margin-bottom: 20px;font-size: x-large;">
+          Notre Instagram
+        </div>
+      </a>
+      
+      <h1 style="background-color:black;color : rgb(255, 255, 255);font-family: 'BFFont';" class="section-title">Classement</h1>
+      <ul>
+          {% for item in classement %}
+              <li style="" class="list-item"><p style="font-size: xx-large;color : black">{{ item.name }} - a trouvé {{item.score}} stickers </p></li>
+          {% endfor %}
+      </ul>
+      <p style="color:black">*Brutal Fekal Fan</p>
+
+      <!-- <form action="/changeplayername" method="POST">
+        <label for="name">Pour changer ton nom</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="mail">Pour changer ton mail</label>
+        <input type="text" id="mail" name="mail" required>
+        <br>
+        <input type="submit" value="Envoyer">
+    </form>
+     -->
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+
+
+
+
+</div>
+
+
+{%endblock%}

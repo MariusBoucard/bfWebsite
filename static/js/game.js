@@ -134,7 +134,7 @@ function gameOver() {
     gameOverYouKnow = true;
     // player.setTint(0xff0000); // tint the player red
     gameover_image = that.add.image(400, 300, 'gameover'); // add gameover image
-    endText = that.add.text(100, 20, 'Nouveau son \n le 8 Juin !', { fontSize: '62px', fill: '#000' });
+    endText = that.add.text(100, 20, 'Bukolik le 6 Octobre !', { fontSize: '62px', fill: '#000' });
 
     endText = that.add.text(350, 300, 'Score: ' + score, { fontSize: '32px', fill: '#fff' });
     sprite = that.add.sprite(400, 400, 'restartButton');

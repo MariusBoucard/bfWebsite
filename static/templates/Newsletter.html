@@ -1,0 +1,43 @@
+{%extends "base.html"%}
+{%block head%}
+<meta name="description" content="Nos plus fraiches diarées">
+<!-- <link href="../static/css/blog.css" rel="stylesheet"> -->
+<title>Fekal Newsletter</title>
+{%endblock%}
+
+{%block middlecolumn%}
+<div id="wholepq" style="color:black">
+<h1 style="max-width: 50%;margin: auto; margin-top:30px">Tu veux T'inscrire pour rien rater de nos news ???</h1>
+
+<p style="color:black">Petit texte ici pour dire que bah on a plus de pq</p>
+
+    {% with messages = get_flashed_messages()%}
+    {%if messages%}
+    {%for msg in messages%}
+    <p>{{msg}}</p>
+    {% endfor%}
+    {%endif%}
+    {%endwith%}
+
+<form class="" action="/newsinscription" method="POST">
+    <div class="align-items-center" style=" margin-bottom: 30px;">
+     
+      <p style="color:black" class=" mb-3 fw-normal">Ton Fekal name</p>
+      <div class="center form-floating w-25 mb-3 fw-normal" style="margin:auto">
+        <input type="text" class="form-control" id="floatingInput2" name="name" required placeholder="Ton nom">
+        <label style="color:black" for="floatingInput">Fekal name</label>
+      </div>
+      <p style="color:black" class=" mb-3 fw-normal">L'adresse à laquelle on pourra te  Fekaliser</p>
+      <div class="center form-floating w-25 mb-3 fw-normal" style="margin:auto;">
+        <input type="email" rows="5" cols="80" class="form-control" id="floatingInput" name="mail"
+          placeholder="name@example.com" required>
+        <label style="color:black" for="floatingInput">Brutal Adresse</label>
+      </div>
+     
+      <button class="w-100 btn btn-lg btn-primary" style="background-color: black; border: 0 solid black;" type="submit">Tirer la chasse</button>
+    </div>
+
+
+</div>
+
+{%endblock%}

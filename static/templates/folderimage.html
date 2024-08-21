@@ -1,0 +1,54 @@
+{% extends "base.html"%}
+{% block head %}
+
+<link href="../static/css/folderimage.css" type="text/css" rel="stylesheet" />
+<title>Brutal Beaux Gosses - Brutal Fekal</title>
+{%endblock%}
+
+
+
+{%block middlecolumn%}
+
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap" rel="stylesheet">
+<h3 style="font-family: 'BFFont';font-size: 3em; padding-top: 60px;color:black">Ici sont les plus beaux clichés de tes artistes préféré.es !</h3>
+<div class="gallery">
+	<div class="gallery__column">
+        {% for image in dict1.keys(): %}
+		<a href="/brutalimagefolder/{{image}}" target="_blank" class="gallery__link">
+			<figure class="gallery__thumb">
+				<img src="../static/images/brutalimages/{{image}}/{{dict1.get(image).cover}}" alt="{{dict1.get(image).description}}" class="gallery__image">
+				<figcaption class="gallery__caption">{{dict1.get(image).description}}</figcaption>
+			</figure>
+		</a>
+        {%endfor%}
+	</div>
+	
+	<div class="gallery__column">
+        {% for image in dict2.keys(): %}
+		<a href="/brutalimagefolder/{{image}}" target="_blank" class="gallery__link">
+			<figure class="gallery__thumb">
+				<img src="../static/images/brutalimages/{{image}}/{{dict2.get(image).cover}}" alt="{{dict2.get(image).description}}" class="gallery__image">
+				<figcaption class="gallery__caption">{{dict2.get(image).description}}</figcaption>
+			</figure>
+		</a>
+        {%endfor%}
+		
+	
+	</div>
+	
+	<div class="gallery__column">
+        {% for image in dict3.keys(): %}
+		<a href="/brutalimagefolder/{{image}}" target="_blank" class="gallery__link">
+			<figure class="gallery__thumb">
+				<img src="../static/images/brutalimages/{{image}}/{{dict3.get(image).cover}}" alt="{{dict3.get(image).description}}" class="gallery__image">
+				<figcaption class="gallery__caption">{{dict3.get(image).description}}</figcaption>
+			</figure>
+		</a>
+        {%endfor%}
+		
+	
+	</div>
+	
+</div>
+
+{%endblock%}

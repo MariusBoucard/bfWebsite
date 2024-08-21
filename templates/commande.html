@@ -1,0 +1,48 @@
+{%extends "base.html"%}
+{%block head%}
+<meta name="description" content="Nos plus fraiches diarées">
+<!-- <link href="../static/css/blog.css" rel="stylesheet"> -->
+<title>Fekal Commandes</title>
+{%endblock%}
+
+{%block middlecolumn%}
+<div id="wholepq" style="color:black; text-align: center;">
+<h1 style="max-width: 50%;margin: auto; margin-top:30px">Merci de passer commande chez Brutal Fekal</h1>
+
+<p style="color:black;max-width: 60%;margin: auto;">On a mis du coeur à l'ouvrage pour vous chier une masterclasse. C'est cool de nous soutenir !! </p>
+
+    {% with messages = get_flashed_messages()%}
+    {%if messages%}
+    {%for msg in messages%}
+    <p>{{msg}}</p>
+    {% endfor%}
+    {%endif%}
+    {%endwith%}
+
+    <h3 style="color:black; margin-top: 50px;">Tu veux donc commander un {{ outfit }} ??</h3>
+      <p style="color:black;max-width: 60%;margin: auto;">Qu'à cela ne tienne ! Ca fera seulement {{ prix }} Euros !(En vrai c'est prix libre, voila une valeur qui nous semble juste !)</p>
+    <p></p>
+    <p style="color:black;max-width: 60%;margin: auto;margin-top: 30px;">On verra avec toi par mail si il y a besoin de gérer pour d'éventuels frais de porc (#balancetaposte)</p>
+<form style="margin-top:30px;margin-bottom: 30px;" action="/commande/{{ outfit }}" method="POST">
+    <div class="align-items-center" style=" margin-bottom: 200px;">
+     
+      <p style="color:black" class=" mb-3 fw-normal">Ton Fekal name</p>
+      <div class="center form-floating w-25 mb-3 fw-normal" style="margin:auto">
+        <input type="text" class="form-control" id="floatingInput2" name="name" required placeholder="Ton nom">
+        <label style="color:black" for="floatingInput">Fekal name</label>
+      </div>
+      <p style="color:black" class=" mb-3 fw-normal">L'adresse à laquelle on peut t'envoyer un reçu imprimé sur du PQ</p>
+      <div class="center form-floating w-25 mb-3 fw-normal" style="margin:auto;">
+        <input type="email" rows="5" cols="80" class="form-control" id="floatingInput" name="mail"
+          placeholder="brutalFekal@TurboChiasse.com" required>
+        <label style="color:black" for="floatingInput">Brutal Adresse mail</label>
+      </div>
+     
+      <button class="w-100 btn btn-lg btn-primary" style="background-color: black; border: 0 solid black;margin-top: 20px;" type="submit">Tirer la chasse</button>
+    </div>
+
+</form>
+</div>
+
+
+{%endblock%}

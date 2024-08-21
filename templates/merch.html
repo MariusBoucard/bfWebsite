@@ -10,10 +10,17 @@
 <title>Brutal Merch</title>
 {%endblock%}
 {%block middlecolumn%}
+{% with messages = get_flashed_messages()%}
+{%if messages%}
+{%for msg in messages%}
+<p>{{msg}}</p>
+{% endfor%}
+{%endif%}
+{%endwith%}
 <h1 style="color:white">Tout notre merch s’offre à toi ! N’hésite pas à nous donner ton salaire et te nourrir uniquement d’eau le reste du mois !
 </h1>
 <ul class="tilesWrap">
-	<a href="https://www.kickstarter.com/projects/brutalfekal/bukolik-le-premier-album-de-brutal-fekal">
+	<a href="/passercommande/CD">
 	<li>
 		<h2>CD</h2>
 		<h3>CD</h3>
@@ -24,9 +31,11 @@
 		</p>
 
 			<button>Acheter un CD</button>
+			<h4 style="text-align: right; font-size: 30px;">8 €</h4>	
+
 		</li>
 	</a>
-	<a href="https://www.kickstarter.com/projects/brutalfekal/bukolik-le-premier-album-de-brutal-fekal">
+	<a href="/passercommande/T-shirt">
 
 	<li>
 		<h2>T-S</h2>
@@ -36,32 +45,37 @@
 		</p>
         <img src="../static/images/merch/tshirt.png" style="width: 100%;"/>
 		<button onclick="window.location='https\:\/\/www.kickstarter.com/projects/brutalfekal/bukolik-le-premier-album-de-brutal-fekal'">Acheter ton T-Shirt</button>
+		<h4 style="text-align: right; font-size: 30px;">15 €</h4>	
+
 	</li>
 	</a>
 	</ul>
 	<ul class="tilesWrap">
-		<a href="https://www.kickstarter.com/projects/brutalfekal/bukolik-le-premier-album-de-brutal-fekal">
+		<a href="/passercommande/Patch">
 
 	<li>
 		<h2>Pat</h2>
 		<h3>Patch</h3>
 		<p>
-			Tu veux des gros patches a mettre sur ta petite veste ?
+			Tu veux des gros patches à mettre sur ta petite veste ?
 		</p>
         <img src="../static/images/merch/patch.png" style="width: 100%;"/>
 		<button onclick="window.location='https\:\/\/www.kickstarter.com/projects/brutalfekal/bukolik-le-premier-album-de-brutal-fekal'" >Achter un patch</button>
+		<h4 style="text-align: right; font-size: 30px;">5 €</h4>	
 	</li>
 	</a>
-	<a href="https://www.kickstarter.com/projects/brutalfekal/bukolik-le-premier-album-de-brutal-fekal">
+	<a href="/passercommande/Bundle">
 		<li>
 		<h2>$$</h2>
 		<h3>Nous filer de la thune</h3>
 		<p>
-			Bah ouais car ca coute cher de faire un album et tout, donc si tu veux nous soutenir
+			Bah ouais car ça coute cher de faire un album et tout, donc si tu veux nous soutenir
 		</p>
         <img src="../static/images/jul.jpeg" style="width: 100%;"/>
 
 			<button id="buyButton"  onclick="window.location='https\://www.kickstarter.com/projects/brutalfekal/bukolik-le-premier-album-de-brutal-fekal'" >Nous acheter des bières</button>
+			<h4 style="text-align: right; font-size: 30px;">25 €</h4>	
+
 		</li>
 	</a>
 </ul>

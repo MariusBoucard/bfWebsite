@@ -1,0 +1,180 @@
+{%extends "basegroupe.html"%}
+{%block head%}
+<meta name="description" content="Paré pour l'aventure ?">
+<link href="../static/css/blog.css" rel="stylesheet">
+<link href="../static/css/flip.css" rel="stylesheet">
+
+<title>Chiasse au tresor</title>
+{%endblock%}
+{%block middlecolumn%}
+<style>
+
+  .image-list-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap : 10px;
+  }
+  .list-item {
+  list-style-type: none;
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+}
+
+.picture {
+  width: 20%;
+  height: 0;
+  padding-bottom: 20%; /* Creates a square shape */
+}
+
+.content {
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+.name {
+  margin: 0;
+  font-size: 18px;
+}
+
+.time {
+  margin: 0;
+  font-size: 14px;
+  color: #888;
+}
+
+label {
+  
+        font-size: 20px; /* Adjust the font size as needed */
+        color: black;
+    }
+
+    /* Style the input fields */
+    input[type="text"] {
+        width: 50%;
+        padding: 10px;
+        margin-bottom: 10px;
+        font-size: 16px; /* Adjust the font size as needed */
+    }
+
+    /* Style the submit button */
+    input[type="submit"] {
+        background-color: #ff0000; /* Change the button color as desired */
+        color: white;
+        padding: 5px 10px; /* Adjust the padding to make it smaller */
+        font-size: 25px; /* Adjust the font size as needed */
+        border: none;
+        cursor: pointer;
+        margin-top: 10px; /* Add margin to center the button under the last input */
+    }
+</style>
+<div id="wholepq" style="text-align: center;">
+  <div style="width:80%;margin : auto;padding-bottom: 200px;padding-top:100px">
+    <div class="container">
+      <h1 style="color : black;font-family: 'BFFont';">Salut {{ name }}!</h1>
+      {% if spotName : %}
+      <div>
+        <p style="color : black" >Tu viens de trouver ton {{numero}} stickers !</p>
+        <P style="color : black" >Il était caché au : {{ spotName.location}}</P>
+        
+    <div class="image-list-container">
+        <div class="image">
+            <img src="../static/images/chiasseautresor/{{spotName.photo}}" alt="Sample Image" style="width: 100%;">
+        </div>
+        <div class="vertical-list">
+          <div style="background-color: #000;">
+
+            <h2 style="color : rgb(255, 255, 255);font-family: 'BFFont';" class="section-title">Les lieux découverts</h2>
+          </div>
+            <ul>
+                {% for item in LieuxDecouverts %}
+                <li style="color : black"  class="list-item">
+                  <div class="item">
+                    <div class="content">
+                      <h3 class="name" style="color : black;font-family: 'BFFont';">{{item.name}}</h3>
+                      <p class="time" style="color : black;font-family: 'BFFont';">{{item.time}}</p>
+                    </div>
+                    <div class="picture">
+                      <img src="../static/images/chiasseautresor/{{item.image}}" alt="Sample Image" style="width: 100%;color: #000;"/>
+                    </div>
+                  </div>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+      </div>
+      {% else %}
+     
+        <div class="vertical-list">
+          <div style="background-color: #000;">
+
+            <h2 style="color : rgb(255, 255, 255);font-family: 'BFFont';" class="section-title">Les lieux découverts</h2>
+          </div>
+            <ul>
+                {% for item in LieuxDecouverts %}
+                <li style="color : black"  class="list-item">
+                  <div class="item">
+                    <div class="content">
+                      <h3 class="name" style="color : black;font-family: 'BFFont';">{{item.name}}</h3>
+                      <p class="time" style="color : black;font-family: 'BFFont';">{{item.time}}</p>
+                    </div>
+                    <div class="picture">
+                      <img src="../static/images/chiasseautresor/{{item.image}}" alt="Sample Image" style="width: 100%;color: #000;"/>
+                    </div>
+                  </div>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+ 
+      </div>
+      {% endif %}
+      
+      
+      <h1 style="color : black;font-family: 'BFFont';" class="section-title">Classement</h1>
+      <ul>
+          {% for item in classement %}
+              <li style="" class="list-item"><p style="font-size: xx-large;color : black">{{ item.name }} - en a {{item.score}} </p></li>
+          {% endfor %}
+      </ul>
+
+      <!-- <form action="/changeplayername" method="POST">
+        <label for="name">Pour changer ton nom</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="mail">Pour changer ton mail</label>
+        <input type="text" id="mail" name="mail" required>
+        <br>
+        <input type="submit" value="Envoyer">
+    </form>
+     -->
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+
+
+
+
+</div>
+
+
+{%endblock%}
